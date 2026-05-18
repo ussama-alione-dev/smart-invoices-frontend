@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { api } from "../services/api";
 import { Link, useNavigate } from "react-router-dom";
 import { Mail, Lock, User, UserPlus } from "lucide-react";
-import "../ui/RegisterStyle.css";
+import "../styles/RegisterStyle.css";
 import { useAuth } from "../contexts/authContext";
 import toast from "react-hot-toast";
 

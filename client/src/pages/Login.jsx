@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Mail, Lock, LogIn } from "lucide-react";
-import "../ui/LoginStyle.css";
+import "../styles/LoginStyle.css";
 import { useAuth } from "../contexts/authContext";
 
 const Login = () => {
